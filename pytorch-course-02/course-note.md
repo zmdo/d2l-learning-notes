@@ -1,13 +1,9 @@
 # 第二课 课程笔记
 
-## 标量
+## 线性代数相关的操作
 
-标量由只有一个元素的张量表示：
+参考源码：[matrix-process.py](matrix-process.py)
 
-```python
-import torch
+## 微积分相关操作
 
-x = torch.tensor(3.0)
-y = torch.tensor(4.0)
-
-```
+参考源码：[calulus.py](calculus.py)
