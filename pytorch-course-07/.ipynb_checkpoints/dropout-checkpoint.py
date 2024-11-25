@@ -8,6 +8,9 @@ import model_train
 threads = 0
 batch_size = 256
 
+threads = 0
+batch_size = 256
+
 def dataload():
     # 通过ToTensor实例将图像数据从PIL类型变换成32位浮点数格式，
     # 并除以255使得所有像素的数值均在0～1之间
